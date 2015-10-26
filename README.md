@@ -6,7 +6,7 @@ May people keep asking over the web how to use app constants in a Polymer web Ap
 
 You can very easily use app constants in a polymer web app by using the iron-meta query element in the polymer application. All you have to do is to first import the iron-meta query in the elements.html file and use the iron-meta query element with attributes key and value to create a constant element as shown in the polymer video tutorial and then you can use those constants throughtout the Polymer App.
 
-###    <iron-meta key="APP_NAME" value="OrngeX Polymer App"></iron-meta>
+   <iron-meta key="APP_NAME" value="OrngeX Polymer App"></iron-meta>
 
 ###    var appConstant = new Polymer.IronMetaQuery({key:'APP_NAME'}).value;
 
